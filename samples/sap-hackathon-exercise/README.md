@@ -1,4 +1,4 @@
-# EDC DataManagement API hands-on exercise
+# EDC DataManagement API Hands-On Exercise
 
 # Prerequisite 1: Clone Eclipse Dataspace Connector GitHub Repository
 
@@ -31,6 +31,8 @@ The EDC data management api uses the following configuration:
 * authentication is based on the api key specified by the parameter *edc.api.auth.key*
 
 Data sets offered by the EDC are called assets. Create a new Postman HTTP request for calling the data management api endpoint *GET /assets* and list all currently registered assets.
+
+*Hint: below resources/openapi you will find a documentation of all REST APIs provided by the EDC*
 
 # Exercise 3: Inspect asset attributes
 
